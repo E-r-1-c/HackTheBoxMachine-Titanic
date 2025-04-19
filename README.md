@@ -1,7 +1,3 @@
-Here’s the final `README.md` formatted in GitHub-friendly Markdown:
-
----
-
 # Machine Documentation Repository
 
 Welcome to my machine documentation repository! This repo contains detailed write-ups showcasing the tools, techniques, and processes I use to tackle HackTheBox and TryHackMe machines as part of my cybersecurity learning journey.
@@ -11,17 +7,11 @@ Welcome to my machine documentation repository! This repo contains detailed writ
 The repository is organized by machine name, with each folder containing relevant files and documentation:
 
 ```
-RepoRoot/
-├── README.md            # Overview of the entire repo
-├── HackTheBox-Titanic/  # Documentation for HackTheBox Titanic machine
-│   ├── README.md        # Detailed documentation for Titanic
-│   ├── nmap-results.txt # Nmap scan results
-│   ├── gobuster-results.txt # Gobuster directory enumeration results
-│   ├── screenshots/     # Visual evidence of processes and results
-├── TryHackMe-Machine2/  # Documentation for another machine (future addition)
-│   ├── README.md
-│   ├── notes/
-│   ├── screenshots/
+MachineName/
+├── README.md            # Overview and summary of the machine
+├── enumeration.txt      # Notes and results related to enumeration
+├── exploitation.txt     # Steps and details related to exploitation
+├── post-exploitation.txt # Notes and results for post-exploitation
 ```
 
 ## 🛠️ Methodology
@@ -49,7 +39,3 @@ I’m passionate about learning cybersecurity and penetration testing, and this 
 - **Website**: [ericavalos.com](https://ericavalos.com)
 - **LinkedIn**: [linkedin.com/in/eric-avalos](https://www.linkedin.com/in/eric-avalos)
 - **Email**: [eric@ericavalos.com](mailto:eric@ericavalos.com)
-
----
-
-This Markdown is properly formatted for GitHub and ready to go. When you upload this as your `README.md`, GitHub will render it beautifully on your repository’s main page. Let me know if there's anything else you'd like to refine!
